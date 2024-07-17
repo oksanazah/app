@@ -1,0 +1,33 @@
+.intro{   
+        width: 100%;
+        display: flex;
+        justify-content: start;   
+        background: #D6E6FF; 
+        color: #00699E;
+        
+      }
+      .info{
+        padding: 0 0 0 50px;
+                
+      }
+      .info h3{
+        color: #051C40;
+
+      }
+.main {
+        width: 100%;
+        display: inline-flex;
+        justify-content: space-around;
+        padding: 10px 10px 10px 10px;
+        background: #ffffff; 
+        color: #00699E;
+}  
+
+.mainText{
+  background: #ffffff; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   color: #00699E;
+}
+    
