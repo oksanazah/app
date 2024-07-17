@@ -12,7 +12,7 @@ export default function Map() {
         const initMap = async () => {
 
             const loader = new Loader(
-                AIzaSyCzM29RAt16yCnlGMxjepcXiODhyJpEx4I, 'weekly'
+                "My_API_KEY", 'weekly'
             );
             const {Map} = await loader.importLibrary('maps');
             const position = {
