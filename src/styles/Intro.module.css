@@ -1,13 +1,13 @@
 .intro{   
         width: 100%;
         display: flex;
-        justify-content: start;   
+        justify-content: space-between;   
         background: #D6E6FF; 
         color: #00699E;
         
       }
       .info{
-        padding: 0 0 0 50px;
+        padding: 0 0 0 160px;
                 
       }
       .info h3{
@@ -15,10 +15,10 @@
 
       }
 .main {
-        width: 100%;
-        display: inline-flex;
-        justify-content: space-around;
-        padding: 10px 10px 10px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px 160px;
         background: #ffffff; 
         color: #00699E;
 }  
@@ -31,3 +31,11 @@
    color: #00699E;
 }
     
+.mainBlock {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainBlockItem {
+  text-align: center;
+}
